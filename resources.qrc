@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="images">
+    <file>resources/images/face.png</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>resources/icons/brand_logo.png</file>
+    <file>resources/icons/cil-window-maximize.png</file>
+    <file>resources/icons/cil-window-minimize.png</file>
+    <file>resources/icons/cil-window-restore.png</file>
+    <file>resources/icons/cil-x.png</file>
+    <file>resources/icons/icon_menu.png</file>
+    <file>resources/icons/icons8-bot-24.png</file>
+    <file>resources/icons/icons8-bot-48.png</file>
+    <file>resources/icons/icons8-facial-recognition-24.png</file>
+    <file>resources/icons/icons8-facial-recognition-48.png</file>
+    <file>resources/icons/icons8-graph-report-24.png</file>
+    <file>resources/icons/icons8-graph-report-48.png</file>
+    <file>resources/icons/icons8-home-24.png</file>
+    <file>resources/icons/icons8-home-48.png</file>
+    <file>resources/icons/icons8-true-false-24.png</file>
+    <file>resources/icons/icons8-true-false-48.png</file>
+  </qresource>
+</RCC>
