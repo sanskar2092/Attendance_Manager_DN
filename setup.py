@@ -3,17 +3,17 @@ import os
 from cx_Freeze import setup, Executable
 
 # ADD FILES
-files = ["icon.ico", "themes/"]
+files = ["icon.ico"]
 
 # TARGET
-target = Executable(script="main.py", base="Win32GUI", icon="icon.ico")
+target = Executable(script="smart_attendance_system.py", base="Win32GUI", icon="icon.ico", shortcutName="Smart Attendance", shortcutDir="DesktopFolder")
 
 # SETUP CX FREEZE
 setup(
-    name="PyDracula",
+    name="SmartAttendanceSystem",
     version="1.0",
-    description="Modern GUI for Python applications",
-    author="Wanderson M. Pimenta",
+    description="An application to use face recognition to manage student attendance",
+    author="Anil Kumar",
     options={"build_exe": {"include_files": files}},
     executables=[target],
 )

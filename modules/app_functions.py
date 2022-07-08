@@ -1,4 +1,4 @@
-from main import *
+from smart_attendance_system import *
 
 
 # WITH ACCESS TO MAIN WINDOW WIDGETS

@@ -2,3 +2,7 @@ __pycache__/
 .git/
 .pyc
 .idea/
+TrainingImage/*.*
+StudentDetails/*.*
+build/*.*
+dist/*.*
